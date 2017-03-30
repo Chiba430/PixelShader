@@ -1,0 +1,86 @@
+﻿2017/03/31 1:25:09 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\ES Game Library\ES Game Library.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Shader.cpp
+         Shader.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\Debug\ES Game Library.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD /NODEFAULTLIB:LIBCMT /NODEFAULTLIB:LIBCPMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\Debug\ES Game Library.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\Debug\ES Game Library.lib" /MACHINE:X86 /SAFESEH:NO /ignore:4099 Debug\Resource.res
+         Debug\Barrel.obj
+         Debug\Binarization.obj
+         Debug\Blur.obj
+         Debug\Contrast.obj
+         Debug\Copy.obj
+         Debug\Emboss.obj
+         Debug\GameMain.obj
+         Debug\SceneShared.obj
+         Debug\Gamma.obj
+         Debug\Gaussian.obj
+         Debug\Glass.obj
+         Debug\Gradient.obj
+         Debug\Graphic.obj
+         Debug\Gray.obj
+         Debug\Laplacian4.obj
+         Debug\Laplacian8.obj
+         Debug\Level.obj
+         Debug\Mosaic.obj
+         Debug\Night.obj
+         Debug\Posterization.obj
+         Debug\Prewitt.obj
+         Debug\Qper.obj
+         Debug\Raster.obj
+         Debug\Reversi.obj
+         Debug\Roberts.obj
+         Debug\Sepia.obj
+         Debug\Shader.obj
+         Debug\ShaderSource.obj
+         Debug\Sharpness4.obj
+         Debug\Sharpness8.obj
+         Debug\Sine.obj
+         Debug\Smoothing.obj
+         Debug\Sobel.obj
+         Debug\Solarization.obj
+         Debug\StdAfx.obj
+         Debug\Watercolor.obj
+         Debug\Whitenoise.obj
+         Debug\WinMain.obj
+         Debug\DXAudio8.obj
+         Debug\MusicSegment.obj
+         Debug\Sound3DBuffer.obj
+         Debug\SoundBuffer.obj
+         Debug\SoundListener.obj
+         Debug\ComLibrary.obj
+         Debug\AnimationModel.obj
+         Debug\Camera.obj
+         Debug\DXGFont.obj
+         Debug\DXGraphics9.obj
+         Debug\Effect.obj
+         Debug\Model.obj
+         Debug\RenderTarget.obj
+         Debug\Sprite.obj
+         Debug\Sprite3D.obj
+         Debug\SpriteBatch.obj
+         Debug\StateBlock.obj
+         Debug\VertexBuffer.obj
+         Debug\DInput8.obj
+         Debug\InputDevice.obj
+         Debug\InputEffect.obj
+         Debug\DShow.obj
+         Debug\Media.obj
+         Debug\FixTimer.obj
+         Debug\GameApp.obj
+         Debug\GameFrameWindow.obj
+         Debug\GameProc.obj
+         Debug\Network.obj
+         Debug\Random.obj
+         Debug\SingleApp.obj
+         Debug\Stream.obj
+         Debug\Thread.obj
+         ES Game Library.vcxproj -> C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\Debug\ES Game Library.exe
+       PostBuildEvent:
+         for %%1 in ("C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\ES Game Library\Shader\\*.fx") do "C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\ES Game Library\Shader\\Compiler\\fxc.exe" /LD /T fx_2_0 /Fo "C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\ES Game Library\\\Content\\FX\\%%~n1.fxc" "C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\ES Game Library\Shader\\%%~n1.fx"
+         :VCEnd
+     1>プロジェクト "C:\Users\chiba\Desktop\1.PGbox\ピクセルシェーダ\ピクセルシェーダー\ES Game Library\ES Game Library\ES Game Library.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.19
